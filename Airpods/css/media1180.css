@@ -1,0 +1,29 @@
+@media (max-width: 1180px){
+    .header_title{
+        position: relative;
+    }
+    .Air{
+        font-size: 100px;
+        transform: none;
+    }
+    .Pod{
+        font-size: 100px;
+        transform: none;
+    }
+    .S{
+        font-size: 100px;
+        transform: none;
+    }
+    .M{
+        font-size: 100px;
+        transform: none;
+    }
+    .AX{
+        font-size: 100px;
+        transform: none;
+    }
+    .mailing-list-inner{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

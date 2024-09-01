@@ -1,0 +1,10 @@
+@media (max-width: 1920px){
+        .AX{
+            display: inline-block;
+    transform: translate(-36px, 400px);
+    position: relative;
+    z-index: -1;
+    font-weight: 700;
+    font-size: 140px;
+        }
+    }

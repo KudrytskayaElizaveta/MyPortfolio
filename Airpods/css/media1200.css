@@ -1,0 +1,5 @@
+@media (max-width: 1200px){
+    .assortiment_list {
+        flex-wrap: wrap;
+    }
+}

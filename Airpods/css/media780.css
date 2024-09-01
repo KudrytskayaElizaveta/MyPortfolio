@@ -1,0 +1,44 @@
+@media (max-width: 780px){
+    .description_info{
+        margin: 60px auto 40px auto;
+    }
+    .title{
+        font-size: 36px;
+    }
+    .top_content img{
+        width: 100%;
+    }
+    .characteristics_info {
+        margin: 60px auto 40px auto;
+        padding-top: 15px;
+    }
+    .assortiment_list{
+        gap: 16px;
+    }
+    .assortiment_info{
+        margin: 46px auto 30px auto
+    }
+    .mailing-list-btn{
+        padding: 5px 14px;
+        font-size: 15px;
+    }
+    .mailing-list-email{
+        width: 250px;
+    }
+    .description_inner{
+        flex-wrap: wrap;
+    }
+    .info_list{
+        flex-basis: 628px;
+    }
+    .description_item + .description_item {
+        padding-top: 10px;
+    }
+    .description_inner img{
+        margin-left: 0;
+        padding-top: 10px;
+    }
+    .characteristics_inner img{
+        display: none;
+    }
+}

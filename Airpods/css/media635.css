@@ -1,0 +1,44 @@
+@media (max-width: 635px){
+    .header_inner{
+        justify-content: center;
+    }
+    .header_inner img{
+        padding-right: 25px;
+    }
+    .menu_item:last-child{
+        border-radius: 13px;
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 55px;
+    padding-top: 16px;
+    padding-left: 10px;
+    margin-top: -17px;
+    }
+    .menu_list{
+        gap: 20px;
+    }
+    .header_title{
+        position: relative;
+        padding-top: 50px;
+    }
+    .Air{
+        font-size: 50px;
+    }
+    .Pod{
+        font-size: 50px;
+    }
+    .S{
+        font-size: 50px;
+    }
+    .M{
+        font-size: 50px;
+    }
+    .AX{
+        font-size: 50px;
+    }
+    .mailing-list-inner{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
