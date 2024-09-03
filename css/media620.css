@@ -1,0 +1,37 @@
+@media (max-width: 620px){
+    .header{
+        min-height: unset;
+    }
+    .header_title{
+        font-size: 30px;
+    }
+    .header_title strong{
+        font-size: 40px;
+    }
+    .nav_row{
+        justify-content: space-between;
+    }
+    .dark_mode_btn{
+        order: 0;
+    }
+    .section {
+        padding: 40px 0;
+    }
+    .title_one{
+        margin-bottom: 30px;
+        font-size: 40px;
+    }
+    .title_three {
+        margin-bottom: 30px;
+        font-size: 30px;
+    }
+    .project_title{
+        font-size: 22px;
+    }
+    .footer{
+        padding: 40px 0 30px;
+    }
+    .social_list {
+        column-gap: 20px;
+    }
+}
