@@ -8,6 +8,21 @@ html{
     box-sizing: inherit;
 }
 
+.html,
+.body{
+    height: 100%;
+}
+
+.wrapper{
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main{
+    flex-grow: 1;
+}
+
 a{
     text-decoration: none;
     color: inherit;
@@ -373,18 +388,119 @@ body{
     font-weight: 600 ;
 }
 
+.footer{
+    padding: 100px 0 20px;
+    background-color: #F7F2EA;
+}
 
+.footer-inner{
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0 40px;
+}
 
+.footer-products-title, 
+.footer-company-title,
+.footer-contacts-title{
+    font-weight: 400;
+    font-family: 'Cormorant', sans-serif;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
 
+.footer-products-item,
+.footer-company-item{
+    margin-bottom: 20px;
+}
 
+.footer-block-text{
+    margin-top: 80px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
 
+.footer-block-author{
+    font-size: 12px;
+    font-style: normal;
+}
 
+.footer-block-author span{
+    display: block;
+}
 
+.footer-contacts-text{
+    font-size: 13px;
+    margin-bottom: 20px;
+}
 
+.footer-nav{
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.footer-nav-logo{
+    margin-right: 40px;
+}
 
+.footer-nav-phone,
+.footer-nav-email{
+    font-size: 13px;
+    position: relative;
+    padding-left: 32px;
+    display: block;
+    margin-bottom: 20px;
+}
 
+.footer-nav-phone::before,
+.footer-nav-email::before{
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 0;
+    width: 22px;
+    height: 16px;
+    background-image: url(../img/mail.svg);
+}
 
+.footer-nav-phone::before{
+    background-image: url(../img/phone.svg);
+    width: 21px;
+    height: 21px;
+}
+
+.footer-nav-contacts{
+    margin-top: 20px;
+}
+
+.footer-social{
+    margin-top: 40px;
+    margin-left: 97px;
+}
+
+.footer-social-list{
+    display: flex;
+    align-items: center;
+    gap: 0 20px;
+}
+
+.footer-social-link{
+    display: grid;
+}
+
+.footer-bottom{
+    display: flex;
+}
+
+.footer-copy{
+    margin-right: 192px;
+    font-size: 16px;
+}
+
+.partners-logo{
+    display: flex;
+    gap: 0 20px;
+}
 
 @media (max-width: 1000px){
     .user-actions-item-search{
@@ -449,6 +565,24 @@ body{
     }
     .prioritise-list{
         gap: 30px 210px ;
+    }
+    .footer-blockquote{
+        width: 270px;
+    }
+    .footer-block-text{
+        margin-top: 0;
+    }
+    .footer-inner{
+        margin-bottom: 55px;
+    }
+    .footer-copy{
+        margin-right: 85px;
+    }
+    .footer-nav-logo{
+        margin-right: 35px;
+    }
+    .footer-contacts{
+        width: 270px;
     }
 } 
 
@@ -550,6 +684,24 @@ body{
     .prioritise-list{
         gap: 30px 133px ;
     }
+    .footer-inner{
+        grid-template-rows: 1fr 1fr;
+    }
+    .footer-inner {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr 1fr;
+    }
+    .footer-products,
+    .footer-company{
+        grid-row: span 3;
+    }
+    .footer-contacts{
+        grid-column: 3 / 4;
+        grid-row: 2 / 3;
+    }
+    .footer-copy{
+        margin-right: 120px;
+    }
 }
 
 @media (max-width: 680px){
@@ -620,6 +772,52 @@ body{
     }
     .prioritise{
         padding: 60px 0;
+    }
+    .footer-inner{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer-blockquote{
+        width: 100%;
+    }
+    .footer-block-text{
+        margin-bottom: 10px;
+        margin-top: 50px;
+    }
+    .footer-contacts{
+        margin-top: 50px;
+        width: 100%;
+    }
+    .footer-contacts-title{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .footer-contacts-text{
+        text-align: center;
+    }
+    .footer-nav{
+        flex-wrap: nowrap;
+    }
+    .footer-social{
+        margin-left: 30px;
+    }
+    .footer-copy{
+        margin-right: auto;
+    }
+    .footer-products{
+        margin-right: auto;
+        padding-right: 20px;
+    }
+    .footer-company{
+        padding-right: 20px;
+        margin-right: 55px;
+    }
+    .footer-products-title,
+    .footer-company-title{
+    margin-bottom: 30px;
+    }
+    .footer{
+        padding: 50px 0 10px;
     }
 }
 
@@ -700,5 +898,20 @@ body{
     }
     .prioritise-list{
         gap: 40px 100px;
+    }
+    .footer-company{
+        padding-right: 15px;
+        margin-right: 0;
+    }
+    .footer-nav{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer-products{
+        padding-right: 10px;
+    }
+    .footer-social{
+        margin-left: auto;
+        margin-right: auto;
     }
 }

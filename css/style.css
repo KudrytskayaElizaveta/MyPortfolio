@@ -272,6 +272,36 @@ html, body{
     color: var(--project_card_text);
 }
 
+/* .skills_list{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.skills_item{
+    max-width: 370px;
+    background-color: var(--project_card_bg);
+    box-shadow: var(--box_shadow);
+    border-radius: 10px;
+}
+
+.skills_img{
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 80px;
+    width: 80px;;
+}
+
+.skills_title{
+    padding: 15px 20px 25px;
+    font-size: 16px;
+    line-height: 130%;
+    color: var(--project_card_text);
+} */
+
 .content_list{
     margin: 0 auto;
     max-width: 570px;
